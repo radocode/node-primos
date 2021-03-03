@@ -1,2 +1,2 @@
 # node-primos
-Libreria que calcula numeros primos
+Modulo que calcula numeros primos
