@@ -24,3 +24,9 @@ Primero se habe build
 
 Luego se ejecuta asi, por ejemplo:
 ### `docker run -t primos-app sh -c "npm run primos 17"`
+
+-----------------
+
+El modulo esta publicado en el registry publico de NPM aqui:
+
+https://www.npmjs.com/package/primos-radocode-module
