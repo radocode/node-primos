@@ -13,6 +13,6 @@
   "author": "radocode",
   "license": "ISC",
   "dependencies": {
-    "primos-radocode-module": "^1.0.0"
+    "primos-radocode-module": "^1.0.1"
   }
 }

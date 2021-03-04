@@ -19,3 +19,7 @@ test('expects getPrimos to be falsy when 0', () => {
 test('expects getPrimos to be falsy when crashing', () => {
     expect(primos.getPrimos(99999999999999)).toBeFalsy();
 });
+
+test('expects getPrimos to be falsy when input is string', () => {
+    expect(primos.getPrimos("asdg")).toBeFalsy();
+});

@@ -39,7 +39,9 @@ const esPrimo = (n, i = 2) => {
 
 exports.getPrimos = primo => {
     try {
-        // primero se valida que sea un numero natural
+        // se valida que sea numero
+        if (isNaN(primo)) return null;
+        // se valida que sea un numero natural
         if (primo <= 0) return null;
         // luego creamos un array con largo N comenzando desde el i +1, usando un iterator
         var nums = Array.from({ length: primo }, (_, i) => i + 1)
