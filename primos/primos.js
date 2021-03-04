@@ -7,7 +7,7 @@ const esPrimo = (n, i = 2) => {
     // const esPrimo = n => {
     // solucion con un for simple, se evalua desde su definicion matematica:
     // "es un numero natural mayor a 1 que tiene UNICAMENTE dos divisores positivos
-    // distintos: el mismo y el 1, osea so el modulo del numero con el contador
+    // distintos: el mismo y el 1, osea si el modulo del numero con el contador
     // es cero, no es primo, en caso contrario si lo es"
     // for (var contador = 2; contador < numero; contador++) {
     //     if (numero % contador === 0) {
