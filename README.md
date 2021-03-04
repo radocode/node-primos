@@ -26,6 +26,14 @@ Esto arrojara la estructura deseada:
 
 -----------------
 
+Tests Unitarios:
+
+Para ejecutar los tests unitarios, dentro de la carpeta `primos` ejecutar:
+
+### `npm run test`
+
+-----------------
+
 Para ejecutar en Docker, dentro de la carpeta `primos-app`:
 
 Primero se hace build
