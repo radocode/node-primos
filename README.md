@@ -18,7 +18,7 @@ Esto arrojara la estructura deseada:
 
 Para ejecutar en Docker:
 
-Primero se habe build
+Primero se hace build
 
 ### `docker build -t primos-app .`
 
