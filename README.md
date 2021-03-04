@@ -23,7 +23,7 @@ Primero se habe build
 ### `docker build -t primos-app .`
 
 Luego se ejecuta asi, por ejemplo:
-### `docker run -t primos-app sh -c "npm run primos 17"`
+### `docker run -t primos-app sh -c "npm run primos 7"`
 
 -----------------
 
