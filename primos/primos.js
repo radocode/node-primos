@@ -41,9 +41,9 @@ exports.getPrimos = primo => {
     try {
         // primero se valida que sea un numero natural
         if (primo <= 0) return null;
-        // luego creamos un array con largo N comenzando desde el i +1
+        // luego creamos un array con largo N comenzando desde el i +1, usando un iterator
         var nums = Array.from({ length: primo }, (_, i) => i + 1)
-        //filtramos el numero y luego invertimos el array
+        // filtramos el numero y luego invertimos el array
         return nums.filter((num) => esPrimo(num)).reverse();
     } catch (e) {
         // error handling
