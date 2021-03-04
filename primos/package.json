@@ -1,6 +1,6 @@
 {
   "name": "primos-radocode-module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Modulo que calcula numeros primos",
   "main": "primos.js",
   "repository": {

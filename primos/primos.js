@@ -1,7 +1,4 @@
-// error handling generico
-const printError = function (error) {
-    console.log(`['Error Interno'] ${error.name}: ${error.message}`);
-}
+const printError = require('./errorHandler').printError;
 
 const esPrimo = (n, i = 2) => {
     // const esPrimo = n => {
