@@ -2,7 +2,17 @@
 
 Modulo que calcula numeros primos.
 
-Para ejecutar local con node y npm:
+### Estructura del proyecto:
+
+    .
+    ├── primos-app                # app de testing para probar modulo
+    ├── primos                    # Modulo primos
+    ├── LICENSE
+    └── README.md
+
+Este repositorio viene con un app para probar el modulo, que se encuentra en la carpeta `primos-app`
+
+Dentro de la carpeta `primos-app`, se puede ejecutar local con node y npm:
 
 ### `npm install`
 
@@ -16,7 +26,7 @@ Esto arrojara la estructura deseada:
 
 -----------------
 
-Para ejecutar en Docker:
+Para ejecutar en Docker, dentro de la carpeta `primos-app`:
 
 Primero se hace build
 
