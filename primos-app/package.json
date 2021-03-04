@@ -1,15 +1,18 @@
 {
   "name": "primos-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "App que utiliza modulo Primos",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/radocode/node-primos"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "primos": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "radocode",
   "license": "ISC",
   "dependencies": {
-    "primos": "file:../primos"
+    "primos-radocode-module": "^1.0.0"
   }
 }

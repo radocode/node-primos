@@ -1,13 +1,16 @@
 {
-  "name": "primos",
+  "name": "primos-radocode-module",
   "version": "1.0.0",
-  "description": "",
+  "description": "Modulo que calcula numeros primos",
   "main": "primos.js",
+  "repository": {
+    "url": "https://github.com/radocode/node-primos"
+  },
   "scripts": {
     "test": "jest --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "radocode",
   "license": "ISC",
   "devDependencies": {
     "jest": "^26.6.3"
